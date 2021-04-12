@@ -68,6 +68,6 @@ while 1:
     if timeDeltaTime < 1/FPS:
         time.sleep(1/FPS - timeDeltaTime)
     screen.fill(black)
-    pygame.draw.rect(screen, "white", rect)
+    pygame.draw.rect(screen, "yellow", rect)
     pygame.display.flip()
 
